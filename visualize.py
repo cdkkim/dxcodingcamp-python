@@ -1,18 +1,15 @@
-import pdb
-
 import streamlit as st
 import requests
 import plotly.express as px
 
-# import matplotlib.pyplot as plt
 
-count_orders_by_date = requests.get('http://localhost:8000//count-orders-by-date').json()
+count_orders_by_date = requests.get('http://localhost:8000/count-orders-by-date').json()
 
 st.title("Line Chart")
 st.line_chart(data=count_orders_by_date)
 
 
-count_orders_by_country = requests.get('http://localhost:8000//count-orders-by-country').json()
+count_orders_by_country = requests.get('http://localhost:8000/count-orders-by-country').json()
 
 
 # Display bar chart
