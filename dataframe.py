@@ -42,6 +42,15 @@ class DataFrame:
     def add_column(self):
         pass
 
+    def __iter__():
+        pass
+
+    def __next__():
+        pass
+
+    def iter_rows(self):
+        pass
+
     def group_by_count(self, key: str):
         counts = {}
 
