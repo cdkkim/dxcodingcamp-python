@@ -19,7 +19,7 @@ fastapi dev app.py
 python -m venv ~/.venv/dxcodingcamp-python
 source ~/.venv/dxcomdingcamp-python
 
-pip install streamlit pyplot
+pip install streamlit plotly
 ```
 
 ```bash
